@@ -47,10 +47,10 @@ export default function AuthScreen({navigation}: any) {
       {loading ? (
         <Loader />
       ) : (
-        <View>
+        <View style={styles.container}>
           <MaterialCommunityIcons name={'react'} size={200} color="#61dbfb" />
           <GoogleSigninButton
-            style={{width: 192, height: 48}}
+            style={{width: 250, height: 62}}
             size={GoogleSigninButton.Size.Wide}
             color={GoogleSigninButton.Color.Dark}
             onPress={() => {
@@ -76,3 +76,5 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
 });
+
+

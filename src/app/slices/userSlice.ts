@@ -4,8 +4,6 @@ import auth from '@react-native-firebase/auth';
 import {GoogleSignin} from '@react-native-google-signin/google-signin';
 import firestore from '@react-native-firebase/firestore';
 
-const usersCollection = firestore().collection('Users');
-
 /**
  * Initial state
  */
