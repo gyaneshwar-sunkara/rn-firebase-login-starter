@@ -1,3 +1,4 @@
+import android.os.Bundle;
 package com.rnfirebaseloginstarter;
 
 import com.facebook.react.ReactActivity;
